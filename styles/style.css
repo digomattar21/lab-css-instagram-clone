@@ -6,5 +6,178 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 2% 2% 2% 2%;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.backgd{
+  height: 40vh;
+  width:110vw;
+  position: relative;
+  background-color: #06365f;
+  margin-top: -5%;
+  margin-left: -5%;
+}
+
+.main{
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 15%;
+
+}
+
+
+.main-left{
+  position: absolute;
+  align-self: center;
+  width: 50%;
+  height: 70vh;
+  margin-top: 2%;
+}
+
+.main-right{
+  position: absolute;
+  width: 50%;
+  height: 10vh;
+  left:39%;
+  top:10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.homee{
+  width: 23%;
+  background-color: #1c5380;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+  margin-right: 4%;
+  height: 60%;
+  margin-bottom: 2%;
+  border-radius: 6%;
+}
+
+
+
+#home {
+  width: 25%;
+  height: 50%;
+  max-width: 50px;
+}
+
+#login{
+  font-size: 0.9rem;
+  color:white;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 19%;
+  margin-right: 7%;
+}
+
+#phones{
+  height: 68vh;
+  width:28vw;
+  max-width: 400px;
+
+}
+
+#insta{
+  height: 9vh;
+  width: 25vw;
+  
+}
+
+.low-right{
+  position: absolute;
+  width:50%;
+  height: 70%;
+  max-height: 75%;
+  top:25%;
+  left: 39%;
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 1px 0px 1px 0px lightgray ;
+}
+
+.low-right h1 {
+  text-align: start;
+  margin-left: 5%;
+  font-size: 1.6rem;
+  max-width: 60%;
+  margin-top: 6%;
+  font-weight: 800;
+  color: #06365f;
+  
+}
+
+.low-right p{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 0.95rem;
+}
+
+.low-right p span{
+  font-weight: bold;
+}
+
+.download-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+#google-store{
+  margin-right: 17%;
+}
+
+#app-store{
+  margin-left: 3%;
+}
+
+
+.footer{
+  position: absolute;
+  top:85%;
+  left:23%;
+  width:70%
+}
+
+.footer-list{
+  height: 8vh;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+
+.footer-li {
+  margin-left: 2%;
+  font-size: 0.70rem;
+  font-weight: 600;
+}
+
+.um ,.dois, .tres, .quatro, .cinco, .seis, .sete, .oito{
+  color: #1c5380
+
+}
+
+.nove{
+  color:grey;
+  font-variant-caps: all-small-caps;
+}
+
+
+
+@media (max-width:1000px){
+
 }
